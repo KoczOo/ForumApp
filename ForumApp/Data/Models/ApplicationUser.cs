@@ -1,6 +1,8 @@
-﻿namespace ForumApp.Data.Models
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace ForumApp.Data.Models
 {
-    public class ApplicationUser
+    public class ApplicationUser : IdentityUser
     {
     }
 }
